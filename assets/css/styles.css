@@ -3,19 +3,7 @@
 /*===== VARIABLES SCSS =====*/
 /*===== VARIABLES CSS =====*/
 /*=== Colores ===*/
-:root {
-  --first-color: #0396A6;
-  --dark-color: #000;
-  --white-color: #F2F2F2;
-}
 
-/*=== Fuente y tipografia ===*/
-:root {
-  --body-font: 'Open Sans', sans-serif;
-  --biggest-font-size: 3.5rem;
-  --h2-font-size: 1.25rem;
-  --normal-font-size: 0.938rem;
-}
 
 @media screen and (min-width: 768px) {
   :root {
