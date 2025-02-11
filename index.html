@@ -1,104 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dominguez Tech Solutions | AI & Web Development</title>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Parallax responsive landing page</title>
 
-    <!-- Meta Tags for SEO -->
-    <meta name="description" content="AI & Web Development solutions by Dominguez Tech Solutions. Join our crash course and streamline your business with automation.">
-    <meta name="keywords" content="AI, Web Development, Automation, Business Solutions, Crash Course">
-    <meta name="author" content="Dominguez Tech Solutions">
+        <link rel="stylesheet" href="assets/css/styles.css">
 
-    <!-- Open Graph for Social Media -->
-    <meta property="og:title" content="Dominguez Tech Solutions">
-    <meta property="og:description" content="Learn AI, build websites, and automate business workflows in just 1.5 hours!">
-    <meta property="og:image" content="assets/images/og-image.png">
-    <meta property="og:url" content="https://www.domingueztechsolutions.com">
+        <!-- ICONS BOXICONS -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    </head>
+    <body>
+        <!-- ===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <a href="#" class="nav__logo">Mountain</a>
 
-    <!-- Stylesheets -->
-    <link rel="stylesheet" href="assets/css/styles.css">
-    <link rel="stylesheet" href="assets/css/nav.css">
-
-    <!-- Icons (Boxicons) -->
-    <link href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css" rel="stylesheet">
-
-    <!-- JavaScript -->
-    <script type="module" src="assets/js/script.js"></script>
-</head>
-<body>
-    <!-- ===== Navigation Bar ===== -->
-    <header class="l-header">
-        <nav class="nav bd-grid">
-            <div class="nav__brand">
-                <button class="hamburger-menu" id="menu-toggle" aria-label="Open navigation">☰</button>
-                <a href="index.html" class="nav__logo">Dominguez Tech Solutions</a>
-            </div>
-
-            <div class="nav__menu" id="nav-menu">
-                <ul class="nav__list">
-                    <li class="nav__item"><a href="index.html" class="nav__link active">🏠 Home</a></li>
-                    <li class="nav__item"><a href="about.html" class="nav__link">🧑‍💻 About</a></li>
-                    <li class="nav__item"><a href="crashcourse.html" class="nav__link">📚 Crash Course</a></li>
-                    <li class="nav__item"><a href="chatbot.html" class="nav__link">🤖 AI Chatbot</a></li>
-                    <li class="nav__item"><a href="services.html" class="nav__link">🛠️ Services</a></li>
-                    <li class="nav__item"><a href="contact.html" class="nav__link">📬 Contact</a></li>
-                </ul>
-            </div>
-
-            <div class="cta-container">
-                <a href="appointment-booker.html" class="cta-button">🚀 Reserve Your Spot</a>
-            </div>
-        </nav>
-    </header>
-
-    <!-- ===== HOME SECTION ===== -->
-    <main>
-        <section class="home">
-            <div class="parallax home__parallax home__parallax-img1" data-rellax-speed="-9"></div>
-            <div class="parallax home__parallax home__parallax-img2" data-rellax-speed="-7"></div>
-            <div class="parallax home__parallax home__parallax-img3" data-rellax-speed="-6"></div>
-            <div class="parallax home__parallax home__parallax-img4" data-rellax-speed="-3"></div>
-
-            <h1 class="parallax home__title" data-rellax-speed="-6">Dominguez Tech Solutions</h1>
-            <span class="parallax home__subtitle" data-rellax-speed="-5">Innovate. Automate. Elevate.</span>
-
-            <div class="home__scroll">
-                <a href="#section"><i class='bx bx-mouse'></i></a>
-            </div>
-        </section>
-
-        <!-- ===== ABOUT SECTION ===== -->
-        <section class="l-section" id="section">
-            <div class="section">
-                <div class="section__data">
-                    <h2 class="section__title">Empowering Businesses with AI</h2>
-                    <p class="section__text">
-                        At Dominguez Tech Solutions, we specialize in AI integration, web development, and business automation.
-                        Our solutions help entrepreneurs streamline workflows, boost efficiency, and stay ahead in the digital era.
-                    </p>
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu-alt-right'></i>
                 </div>
-                <img src="assets/img/about.jpg" alt="AI & Web Development" class="section__img">
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link">Explore</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link">Aventure</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link">Discover</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <!-- ===== HOME =====-->
+            <div class="home">
+                <div class="parallax home__parallax home__parallax-img1" data-rellax-speed="-9"></div>
+                <div class="parallax home__parallax home__parallax-img2" data-rellax-speed="-7"></div>
+                <div class="parallax home__parallax home__parallax-img3" data-rellax-speed="-6"></div>
+                <div class="parallax home__parallax home__parallax-img4" data-rellax-speed="-3"></div>
+
+                <h1 class="parallax home__title" data-rellax-speed="-6">Mountain</h1>
+                <span class="parallax home__subtitle" data-rellax-speed="-5">Mountain explore</span> 
+
+                <div class="home__scroll">
+                   <a href="#section"><i class='bx bx-mouse'></i></a>
+                </div>
             </div>
-        </section>
 
-        <!-- ===== CRASH COURSE CTA ===== -->
-        <section class="cta-section">
-            <h2>🎓 Master AI & Web Development in 1.5 Hours!</h2>
-            <p>Join our hands-on crash course and learn to integrate AI, build websites, and automate your business.</p>
-            <a href="appointment-booker.html" class="cta-button animated-glow">📅 Reserve Your Spot</a>
-        </section>
-    </main>
+            <!-- ===== SECTION =====-->
+            <section class="l-section" id="section">
+                <div class="section">
+                    <div class="section__data">
+                        <h2 class="section__title">Scaling mountains</h2>
+                        <p class="section__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, laboriosam. Esse ipsum culpa laboriosam, totam hic quidem recusandae eos, numquam iusto aliquid expedita est sapiente quaerat inventore voluptatem corporis aliquam.</p>
+                    </div>
 
-    <!-- ===== FOOTER ===== -->
-    <footer class="footer">
-        <p>© 2025 Dominguez Tech Solutions. All rights reserved.</p>
-    </footer>
+                    <img src="assets/img/imgm.jpg" alt="" class="section__img">
+                </div>
+            </section>
+        </main>
 
-    <!-- Scripts -->
-    <script src="assets/js/rellax.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"></script>
-    <script src="https://unpkg.com/scrollreveal"></script>
-    <script src="assets/js/main.js"></script>
-</body>
+        <!-- RELLAX JS -->
+        <script src="assets/js/rellax.min.js"></script>
+
+        <!-- GSAP -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"></script>
+
+        <!-- SCROLL REVEAL -->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!-- MAIN JS -->
+        <script src="assets/js/main.js"></script>
+
+    </body>
 </html>
