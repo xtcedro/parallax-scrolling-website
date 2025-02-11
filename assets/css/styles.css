@@ -292,3 +292,57 @@ img {
     margin-right: auto;
   }
 }
+
+:root {
+  --primary-color: #00274D; /* Dark Blue */
+  --secondary-color: #FFD700; /* Gold */
+  --text-light: #F2F2F2; /* Light Text */
+  --text-dark: #000; /* Black */
+}
+
+/*=== Font & Typography ===*/
+:root {
+  --body-font: 'Open Sans', sans-serif;
+  --biggest-font-size: 3.5rem;
+  --h2-font-size: 1.25rem;
+  --normal-font-size: 0.938rem;
+}
+
+/* Background & Text Colors */
+body {
+  background-color: var(--primary-color);
+  color: var(--text-light);
+  font-family: var(--body-font);
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--secondary-color);
+}
+
+/* Links */
+a {
+  color: var(--secondary-color);
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+  color: #e6c300; /* Slightly lighter gold on hover */
+}
+
+/* Buttons */
+button, .cta-button {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  font-weight: bold;
+  border: 2px solid var(--secondary-color);
+  padding: 12px 20px;
+  border-radius: 6px;
+  transition: transform 0.3s ease-in-out, background 0.3s;
+}
+
+button:hover, .cta-button:hover {
+  background: #e6c300;
+  transform: scale(1.05);
+}
